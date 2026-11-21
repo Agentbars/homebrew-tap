@@ -20,7 +20,9 @@ cask "rasklad" do
 
   caveats <<~EOS
     Rasklad is not notarized by Apple yet. On first launch macOS blocks it:
-    open it once, then go to System Settings → Privacy & Security → Open Anyway.
+    open it once, then go to System Settings → Privacy & Security → Open Anyway
+    (or run: xattr -dr com.apple.quarantine #{appdir}/Rasklad.app).
     Then grant Accessibility and Input Monitoring and relaunch Rasklad.
+    From version 0.3 Rasklad updates itself (menu → «Проверить обновления…»).
   EOS
 end
