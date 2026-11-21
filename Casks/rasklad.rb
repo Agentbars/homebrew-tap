@@ -1,6 +1,6 @@
 cask "rasklad" do
-  version "0.2.0"
-  sha256 "8455f20d87b69e5edfc629197f48042aa6cbcac521e9e7ea5b5177bf5572454f"
+  version "0.3.0"
+  sha256 "f89e8b8ff6b0ce0f1e418c7044f3f4790c2bbbdb6324f3a912fb7bf10638eedb"
 
   url "https://github.com/Agentbars/rasklad/releases/download/v#{version}/Rasklad-v#{version}.zip"
   name "Rasklad"
