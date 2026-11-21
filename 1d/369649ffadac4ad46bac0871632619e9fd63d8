@@ -1,0 +1,19 @@
+Casks/rasklad.rb
+  s_eb19f5c4e5e6c7::t_dfd190ef95338b 23-24,26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1d369649ffadac4ad46bac0871632619e9fd63d8",
+  "prompts": {},
+  "sessions": {
+    "s_eb19f5c4e5e6c7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "133de67e-f0a3-41b9-ab77-c3d0ef0e5c0b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
