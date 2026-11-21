@@ -1,8 +1,10 @@
 # Agentbars Homebrew tap
 
 ```bash
-brew install --cask agentbars/tap/rasklad
+brew trust --cask agentbars/tap/rasklad && brew install --cask agentbars/tap/rasklad
 ```
+
+Homebrew 7+ loads casks from third-party taps only after `brew trust`.
 
 | Cask | App |
 | --- | --- |
